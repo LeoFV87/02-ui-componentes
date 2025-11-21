@@ -94,6 +94,4 @@ heuristicas = signal<Heuristica[]>([
 
 
 
-
-
  }

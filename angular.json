@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "02-ui-componentes": {
+    "02-ui-componentes-1": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -53,10 +53,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "02-ui-componentes:build:production"
+              "buildTarget": "02-ui-componentes-1:build:production"
             },
             "development": {
-              "buildTarget": "02-ui-componentes:build:development"
+              "buildTarget": "02-ui-componentes-1:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,5 +81,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

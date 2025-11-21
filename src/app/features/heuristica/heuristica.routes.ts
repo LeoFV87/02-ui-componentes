@@ -8,24 +8,26 @@ export const heuristicaRoutes: Routes = [
     },
     {
         path: 'correspondencia-mundo-real',
-        loadComponent: () => import('./h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H2Page cuando esté listo
+        loadComponent: () => import('./h2-page/h2-page').then(m => m.H2Page) // Temporal, cambiar por H2Page cuando esté listo
     },
     {
         path: 'control-libertad-usuario',
-        loadComponent: () => import('./h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H3Page cuando esté listo
+        loadComponent: () => import('./h3-page/h3-page').then(m => m.H3Page) // Temporal, cambiar por H3Page cuando esté listo
     },
     {
         path: 'consistencia-estandares',
-        loadComponent: () => import('./h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H4Page cuando esté listo
+        loadComponent: () => import('./h4-page/h4-page').then(m => m.H4Page) // Temporal, cambiar por H4Page cuando esté listo
     },
     {
         path: 'prevencion-errores',
-        loadComponent: () => import('./h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H5Page cuando esté listo
+        loadComponent: () => import('./h5-page/h5-page').then(m => m.H5Page) // Temporal, cambiar por H5Page cuando esté listo
     },
     {
         path: 'reconocimiento-recordar',
-        loadComponent: () => import('./h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H6Page cuando esté listo
+        loadComponent: () => import('./h6-page/h6-page').then(m => m.H6Page) // Temporal, cambiar por H6Page cuando esté listo
     },
+
+    /*
     {
         path: 'flexibilidad-eficiencia',
         loadComponent: () => import('./h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H7Page cuando esté listo
@@ -41,7 +43,7 @@ export const heuristicaRoutes: Routes = [
     {
         path: 'ayuda-documentacion',
         loadComponent: () => import('./h1-page/h1-page').then(m => m.H1Page) // Temporal, cambiar por H10Page cuando esté listo
-    },
+    },*/
 
     // También mantenemos las rutas con números para compatibilidad
     {

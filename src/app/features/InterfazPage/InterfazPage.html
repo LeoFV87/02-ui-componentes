@@ -27,7 +27,6 @@
 </button>
 
 
-
 <!-- app.component.html -->
 <div class="min-h-screen bg-gray-50 py-12 px-4">
   <div class="max-w-7xl mx-auto">
@@ -49,7 +48,7 @@
           Navegación por Heurísticas
         </h2>
       </div>
-      
+
       <div class="overflow-x-auto">
         <table class="w-full">
           <thead class="bg-gray-50 border-b border-gray-200">
@@ -79,26 +78,26 @@
                     {{ heuristica.id }}
                   </div>
                 </td>
-                
+
                 <td class="px-6 py-4">
                   <div class="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
                     {{ heuristica.titulo }}
                   </div>
                 </td>
-                
+
                 <td class="px-6 py-4 text-center">
                   <span class="text-3xl">{{ heuristica.icono }}</span>
                 </td>
-                
+
                 <td class="px-6 py-4">
                   <p class="text-sm text-gray-600 leading-relaxed">
                     {{ heuristica.descripcion }}
                   </p>
                 </td>
-                
+
                 <td class="px-6 py-4">
                   <div class="flex space-x-2">
-                    <button 
+                    <button
                       [routerLink]="['/heuristica', heuristica.id]"
                       class="inline-flex items-center px-3 py-2 border border-transparent text-xs font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200 transform hover:scale-105">
                       <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -157,8 +156,9 @@
   </div>
 </div>
 
-
 </section>
 
-<router-outlet></router-outlet>
+
+
+
 
